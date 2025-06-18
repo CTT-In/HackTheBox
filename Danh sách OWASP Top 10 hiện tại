@@ -1,0 +1,29 @@
+1.	Kiểm soát truy cập bị hỏng	
+         Các hạn chế không được triển khai phù hợp để ngăn người dùng truy cập vào tài khoản của người dùng khác, xem dữ liệu nhạy cảm, truy cập chức năng trái phép, sửa đổi dữ liệu, v.v.
+
+2.	Lỗi mật mã	
+         Lỗi liên quan đến mật mã thường dẫn đến việc lộ dữ liệu nhạy cảm hoặc xâm phạm hệ thống.
+
+3.	Tiêm	
+         Dữ liệu do người dùng cung cấp không được ứng dụng xác thực, lọc hoặc khử trùng. Một số ví dụ về tiêm là tiêm SQL, tiêm lệnh, tiêm LDAP, v.v.
+
+4.	Thiết kế không an toàn	
+         Những vấn đề này xảy ra khi ứng dụng không được thiết kế chú trọng đến vấn đề bảo mật.
+
+5.	Cấu hình bảo mật sai	
+         Thiếu biện pháp bảo mật phù hợp trên mọi phần của ngăn xếp ứng dụng, cấu hình mặc định không an toàn, lưu trữ đám mây mở, thông báo lỗi dài dòng tiết lộ quá nhiều thông tin.
+
+6.	Các thành phần dễ bị tổn thương và lỗi thời	
+         Sử dụng các thành phần (cả phía máy khách và phía máy chủ) dễ bị tấn công, không được hỗ trợ hoặc lỗi thời.
+
+7.	Lỗi nhận dạng và xác thực	
+         Các cuộc tấn công liên quan đến xác thực nhắm vào danh tính người dùng, xác thực và quản lý phiên.
+
+8.	Lỗi về tính toàn vẹn của phần mềm và dữ liệu	
+         Lỗi về tính toàn vẹn của phần mềm và dữ liệu liên quan đến mã và cơ sở hạ tầng không bảo vệ chống lại các vi phạm tính toàn vẹn. Một ví dụ về điều này là khi một ứng dụng dựa vào các plugin, thư viện hoặc mô-đun từ các nguồn, kho lưu trữ và mạng phân phối nội dung (CDN) không đáng tin cậy.
+
+9.	Ghi nhật ký bảo mật và giám sát lỗi	
+         Thể loại này giúp phát hiện, leo thang và phản hồi các vi phạm đang hoạt động. Nếu không ghi nhật ký và giám sát, các vi phạm không thể được phát hiện.
+
+10.	Làm giả yêu cầu phía máy chủ	
+         Lỗi SSRF xảy ra bất cứ khi nào một ứng dụng web đang truy xuất một tài nguyên từ xa mà không xác thực URL do người dùng cung cấp. Nó cho phép kẻ tấn công ép buộc ứng dụng gửi một yêu cầu được tạo thủ công đến một đích đến không mong muốn, ngay cả khi được bảo vệ bởi tường lửa, VPN hoặc một loại danh sách kiểm soát truy cập mạng (ACL) khác.
