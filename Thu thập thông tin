@@ -1,0 +1,21 @@
+Tình báo nguồn mở
+     OSINT:
+           là một quy trình tìm kiếm thông tin công khai về một công ty hoặc cá nhân mục tiêu cho phép xác định các sự kiện (tức là các cuộc họp công khai và riêng tư), các mối phụ thuộc bên ngoài và bên trong, và các kết nối.
+     OSINT: 
+           sử dụng thông tin công khai (Nguồn mở) từ các nguồn có sẵn miễn phí để có được kết quả mong muốn. 
+           Chúng ta thường có thể tìm thấy thông tin nhạy cảm và có liên quan đến bảo mật từ các công ty và nhân viên của họ. 
+           Thông thường, những người chia sẻ thông tin như vậy không biết rằng họ không phải là những người duy nhất có thể truy cập thông tin đó.
+
+Khóa SSH riêng tư và công khai
+     Các nhà phát triển thường chia sẻ toàn bộ các phần mã trên StackOverflow để cho các nhà phát triển khác thấy tổng quan hơn về cách mã của họ hoạt động để giúp họ giải quyết vấn đề.
+
+Chúng tôi cố gắng xác định máy chủ nào operating systemđang chạy trên máy chủ hoặc máy chủ, servicesmáy chủ nào sử dụng, versionsdịch vụ nào và nhiều hơn nữa. 
+Một lần nữa, ngoài các lần quét đang hoạt động, chúng tôi cũng có thể sử dụng nhiều phương pháp OSINT khác nhau để cho chúng tôi biết máy chủ hoặc máy chủ này có thể được cấu hình như thế nào.
+
+Chẳng hạn như máy chủ FTP mà công ty sử dụng để trao đổi dữ liệu giữa các nhân viên và thậm chí cho phép truy cập {ẩn danh}
+
+Trong quá trình liệt kê máy chủ, chúng tôi cố gắng xác định máy chủ hoặc máy chủ này đóng vai trò gì và nó giao tiếp với các thành phần mạng nào. 
+Ngoài ra, chúng tôi cũng phải xác định servicesmáy chủ nào sử dụng cho mục đích này và portschúng nằm trên những thành phần nào.
+
+chúng tôi tìm kiếm thông tin nhạy cảm files, cục bộ services, scripts, applications, information, và những thông tin khác có thể được lưu trữ trên máy chủ.
+Đây cũng là một phần thiết yếu của Post-Exploitationgiai đoạn, nơi chúng tôi cố gắng khai thác và nâng cao đặc quyền.
