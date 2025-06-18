@@ -1,0 +1,54 @@
+Kiểm tra né tránh
+Thu thập thông tin
+Cướp bóc	
+Đánh giá tính dễ bị tổn thương
+Tăng đặc quyền	
+Sự duy trì kết nối
+Lọc dữ liệu	
+
+1 ~ Kiểm tra né tránh
+    Nếu một quản trị viên có kỹ năng giám sát các hệ thống, bất kỳ thay đổi nào hoặc thậm chí một lệnh đơn lẻ cũng có thể kích hoạt báo động khiến chúng ta bị lộ.
+    Chạy một lệnh như net user hoặc whoami thường được các hệ thống EDR giám sát và đánh dấu là hoạt động bất thường.
+
+Thu thập thông tin
+    Chúng ta cũng liệt kê mạng cục bộ và các dịch vụ cục bộ như máy in, máy chủ cơ sở dữ liệu, dịch vụ ảo hóa, v.v. 
+    Chúng ta thường sẽ tìm thấy các chia sẻ dành cho nhân viên sử dụng để trao đổi và chia sẻ dữ liệu và tệp. Việc điều tra các dịch vụ và thành phần mạng này được gọi là Pillaging.
+
+Cướp bóc
+    Cướp bóc là giai đoạn chúng tôi kiểm tra vai trò của máy chủ trong mạng công ty. Chúng tôi phân tích cấu hình mạng, bao gồm nhưng không giới hạn ở:
+         Giao diện	
+         Lộ trình	
+         DNS
+         ARP	
+         Dịch vụ	
+         Mạng riêng ảo VPN
+         Mạng con IP	
+         Cổ phiếu	
+         Lưu lượng mạng
+
+     Trong giai đoạn cướp bóc, chúng tôi cũng sẽ săn lùng dữ liệu nhạy cảm như mật khẩu trên các chia sẻ, máy cục bộ, trong các tập lệnh, tệp cấu hình, kho lưu trữ mật khẩu, tài liệu (Excel, Word, tệp .txt, v.v.) và thậm chí cả email.
+
+Sự duy trì kết nối
+      là duy trì quyền truy cập vào máy chủ bị khai thác
+      Bước này rất cần thiết và thường được sử dụng làm bước đầu tiên trước các giai đoạn Thu thập thông tin và cướp bóc.
+
+Tăng đặc quyền
+      chúng ta muốn có được các đặc quyền của root(trên Linux-basedcác hệ thống) hoặc miền administrator/ local administrator/ SYSTEM(trên Windows-based các hệ thống) 
+      vì điều này thường cho phép chúng ta di chuyển qua toàn bộ mạng mà không có bất kỳ hạn chế nào.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
