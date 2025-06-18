@@ -1,0 +1,23 @@
+1. Pre-Engagement	
+Bước đầu tiên là tạo tất cả các tài liệu cần thiết trong giai đoạn trước khi tham gia, thảo luận về mục tiêu đánh giá và làm rõ mọi câu hỏi.
+
+2. Information Gathering	
+Sau khi các hoạt động tiền cam kết hoàn tất, chúng tôi sẽ điều tra trang web hiện tại của công ty mà chúng tôi được giao nhiệm vụ đánh giá. Chúng tôi xác định các công nghệ đang sử dụng và tìm hiểu cách ứng dụng web hoạt động.
+
+3. Vulnerability Assessment	
+Với thông tin này, chúng tôi có thể tìm kiếm các lỗ hổng đã biết và điều tra các tính năng đáng ngờ có thể cho phép thực hiện các hành động không mong muốn.
+
+4. Exploitation	
+Khi đã tìm thấy lỗ hổng tiềm ẩn, chúng tôi chuẩn bị mã khai thác, công cụ và môi trường và kiểm tra máy chủ web để tìm các lỗ hổng tiềm ẩn này.
+
+5. Post-Exploitation	
+Sau khi khai thác thành công mục tiêu, chúng tôi sẽ chuyển sang thu thập thông tin và kiểm tra máy chủ web từ bên trong. Nếu tìm thấy thông tin nhạy cảm trong giai đoạn này, chúng tôi sẽ cố gắng nâng cao đặc quyền của mình (tùy thuộc vào hệ thống và cấu hình).
+
+6. Lateral Movement	
+Nếu các máy chủ và máy chủ khác trong mạng nội bộ nằm trong phạm vi, chúng tôi sẽ thử di chuyển qua mạng và truy cập các máy chủ và máy chủ khác bằng thông tin chúng tôi đã thu thập được.
+
+7. Proof-of-Concept	
+Chúng tôi tạo ra bằng chứng khái niệm để chứng minh những lỗ hổng này tồn tại và thậm chí có khả năng tự động hóa từng bước kích hoạt những lỗ hổng này.
+
+8. Post-Engagement	
+Cuối cùng, tài liệu được hoàn thành và trình bày cho khách hàng của chúng tôi dưới dạng báo cáo chính thức. Sau đó, chúng tôi có thể tổ chức một cuộc họp hướng dẫn báo cáo để làm rõ bất kỳ điều gì về thử nghiệm hoặc kết quả của chúng tôi và cung cấp bất kỳ hỗ trợ cần thiết nào cho nhân viên được giao nhiệm vụ khắc phục các phát hiện của chúng tôi.
