@@ -1,0 +1,5 @@
+PoCcó thể có nhiều cách biểu diễn khác nhau. 
+Ví dụ, documentationcác lỗ hổng được tìm thấy cũng có thể cấu thành PoC. 
+Phiên bản PoC thực tế hơn là a scripthoặc codetự động khai thác các lỗ hổng được tìm thấy. 
+Điều này chứng minh việc khai thác hoàn hảo các lỗ hổng. 
+Biến thể này rất đơn giản đối với quản trị viên hoặc nhà phát triển vì họ có thể thấy các bước mà tập lệnh của chúng tôi thực hiện để khai thác lỗ hổng
