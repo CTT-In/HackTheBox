@@ -1,0 +1,24 @@
+Trong vulnerability assessmentgiai đoạn này, chúng tôi kiểm tra và phân tích thông tin thu thập được trong giai đoạn thu thập thông tin.
+Giai đoạn đánh giá lỗ hổng là một quá trình phân tích dựa trên các phát hiện.
+
+Descriptive	
+Phân tích mô tả là điều cần thiết trong bất kỳ phân tích dữ liệu nào. Một mặt, nó mô tả một tập dữ liệu dựa trên các đặc điểm riêng lẻ. Nó giúp phát hiện các lỗi có thể xảy ra trong quá trình thu thập dữ liệu hoặc các giá trị ngoại lai trong tập dữ liệu.
+
+Diagnostic	
+Phân tích chẩn đoán làm rõ nguyên nhân, tác động và tương tác của các điều kiện. Làm như vậy cung cấp những hiểu biết thu được thông qua các mối tương quan và diễn giải. Chúng ta phải có quan điểm nhìn lại, tương tự như phân tích mô tả, với sự khác biệt tinh tế là chúng ta cố gắng tìm ra lý do cho các sự kiện và diễn biến.
+
+Predictive	
+Bằng cách đánh giá dữ liệu lịch sử và hiện tại, phân tích dự đoán tạo ra một mô hình dự đoán cho các xác suất trong tương lai. Dựa trên kết quả của các phân tích mô tả và chẩn đoán, phương pháp phân tích dữ liệu này giúp xác định xu hướng, phát hiện độ lệch so với các giá trị mong đợi ở giai đoạn đầu và dự đoán các sự kiện trong tương lai chính xác nhất có thể.
+
+Prescriptive	
+Phân tích theo quy định nhằm mục đích thu hẹp những hành động cần thực hiện để loại bỏ hoặc ngăn ngừa vấn đề trong tương lai hoặc kích hoạt một hoạt động hoặc quy trình cụ thể.
+
+Chúng tôi có thể tìm thấy thông tin tiết lộ về lỗ hổng cho từng thành phần bằng nhiều nguồn khác nhau. Bao gồm nhưng không giới hạn ở:
+      CVEdetails	
+      Exploit DB	
+      Vulners
+      Packet Storm 
+      Security	NIST	
+
+Giả sử chúng ta không thể phát hiện hoặc xác định các lỗ hổng tiềm ẩn từ phân tích của mình. Trong trường hợp đó, chúng ta sẽ quay lại Information Gatheringgiai đoạn và tìm kiếm thông tin chuyên sâu hơn những gì chúng ta đã thu thập được cho đến nay.
+Điều quan trọng cần lưu ý là hai giai đoạn này ( Information Gatheringvà Vulnerability Assessment) thường chồng chéo lên nhau, dẫn đến chuyển động qua lại thường xuyên giữa chúng.
