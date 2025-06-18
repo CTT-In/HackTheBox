@@ -1,0 +1,46 @@
+☐ Introduction	 
+Mô tả tài liệu này.
+☐ Contractor	
+Tên công ty, tên đầy đủ của nhà thầu, chức danh công việc.
+☐ Penetration Testers	
+Tên công ty, tên đầy đủ của người kiểm tra thâm nhập.
+☐ Contact Information	
+Địa chỉ gửi thư, địa chỉ email và số điện thoại của tất cả các bên khách hàng và người kiểm tra xâm nhập.
+☐ Purpose	
+Mô tả mục đích của việc tiến hành thử nghiệm thâm nhập.
+☐ Goals	
+Mô tả các mục tiêu cần đạt được khi thử nghiệm thâm nhập.
+☐ Scope	
+Tất cả IP, tên miền, URL hoặc phạm vi CIDR.
+☐ Lines of Communication	
+Hội nghị trực tuyến, cuộc gọi điện thoại hoặc gặp mặt trực tiếp hoặc qua email.
+☐ Time Estimation	
+Ngày bắt đầu và ngày kết thúc.
+☐ Time of the Day to Test	
+Thời gian trong ngày để kiểm tra.
+☐ Penetration Testing Type	
+Kiểm tra thâm nhập bên ngoài/bên trong/Đánh giá lỗ hổng/Kỹ thuật xã hội.
+☐ Penetration Testing Locations	
+Mô tả cách thiết lập kết nối với mạng máy khách.
+☐ Methodologies	
+OSSTMM, PTES, OWASP và các loại khác.
+☐ Objectives / Flags	
+Người dùng, tệp cụ thể, thông tin cụ thể và những thông tin khác.
+☐ Evidence Handling	
+Mã hóa, giao thức bảo mật
+☐ System Backups	
+Tệp cấu hình, cơ sở dữ liệu và các tệp khác.
+☐ Information Handling	
+Mã hóa dữ liệu mạnh mẽ
+☐ Incident Handling and Reporting	
+Các trường hợp liên hệ, gián đoạn pentest, loại báo cáo
+☐ Status Meetings	
+Tần suất họp, ngày, giờ, các bên tham gia
+☐ Reporting	
+Loại, đối tượng đọc, tập trung
+☐ Retesting	
+Ngày bắt đầu và ngày kết thúc
+☐ Disclaimers and Limitation of Liability	
+Hệ thống bị hỏng, mất dữ liệu
+☐ Permission to Test	
+Hợp đồng đã ký, thỏa thuận nhà thầu
