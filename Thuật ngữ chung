@@ -1,0 +1,42 @@
+Shell là gì?
+      Là một thuật ngữ rất phổ biến mà chúng ta sẽ nghe đi nghe lại trong suốt hành trình của mình. 
+      Nó có một vài ý nghĩa. Trên hệ thống Linux, shell là một chương trình tiếp nhận dữ liệu đầu vào từ người dùng thông qua bàn phím và chuyển các lệnh này đến hệ điều hành để thực hiện một chức năng cụ thể.
+
+Có 3 loại Shell chính
+      Reverse shell	
+                    Khởi tạo kết nối trở lại với "người nghe" trên hộp tấn công của chúng ta.
+      Bind shell	
+                    "Liên kết" với một cổng cụ thể trên máy chủ mục tiêu và chờ kết nối từ hộp tấn công của chúng tôi.
+      Web shell	
+                    Chạy lệnh hệ điều hành thông qua trình duyệt web, thường không tương tác hoặc bán tương tác. Nó cũng có thể được sử dụng để chạy các lệnh đơn lẻ (tức là, tận dụng lỗ hổng tải tệp lên và tải lên một PHPtập lệnh để chạy một lệnh đơn lẻ.
+
+Cổng là gì?
+      Cổng có thể được coi như cửa sổ hoặc cửa ra vào của một ngôi nhà (ngôi nhà là một hệ thống từ xa), nếu cửa sổ hoặc cửa ra vào bị bỏ ngỏ hoặc không được khóa đúng cách, chúng ta thường có thể xâm nhập trái phép vào nhà.
+      Điều này tương tự trong máy tính. Cổng là các điểm ảo nơi kết nối mạng bắt đầu và kết thúc. Chúng dựa trên phần mềm và được quản lý bởi hệ điều hành máy chủ. Cổng được liên kết với một quy trình hoặc dịch vụ cụ thể và cho phép máy tính phân biệt giữa các loại lưu lượng khác nhau. 
+      (lưu lượng SSH chảy đến một cổng khác với các yêu cầu web để truy cập trang web mặc dù các yêu cầu truy cập được gửi qua cùng một kết nối mạng).
+
+
+Có hai loại cổng, Transmission Control Protocol (TCP) và User Datagram Protocol (UDP).
+      TCP
+          là hướng kết nối, nghĩa là kết nối giữa máy khách và máy chủ phải được thiết lập trước khi dữ liệu có thể được gửi. Máy chủ phải ở trạng thái lắng nghe chờ yêu cầu kết nối từ máy khách.
+      UDP
+          sử dụng mô hình giao tiếp không kết nối. Không có "bắt tay" và do đó tạo ra một lượng không đáng tin cậy nhất định vì không có đảm bảo về việc phân phối dữ liệu.
+
+  Cổng(s)  	      Giao thức
+20/ 21(TCP)	         FTP
+22(TCP)	             SSH
+23(TCP)	             Telnet
+25(TCP)	             SMTP
+80(TCP)	             HTTP/ HTTPS
+161(TCP/UDP)	     SNMP
+389(TCP/UDP)	     LDAP
+443(TCP)	         SSL/ TLS( HTTPS)
+445(TCP)	         SMB
+3389(TCP)	         RDP
+88                   Kerberos (là giao thức chuyên dùng để xác thực yêu cầu giữa những máy chủ trên mạng internet)
+
+
+
+
+
+
